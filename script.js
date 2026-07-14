@@ -9,3 +9,15 @@ function App() {
 }
 
 export default App;
+import Greeting from "./Greeting";
+
+function App() {
+  return (
+    <div>
+      <h1>My First React App</h1>
+      <Greeting />
+    </div>
+  );
+}
+
+export default App;
